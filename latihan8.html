@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY COMPANY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>]
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        nav.navbar {
+            z-index: 1;
+        }
+
+
+        .jumbotron .row-img {
+            width: 100%;
+            height: 110vh;
+            background-image: url('https://i.pinimg.com/736x/68/83/4b/68834b469d93c7def0cc983c7d3a199d.jpg');
+            background-position: center;
+            position: relative;
+            margin-top: -56px;
+
+        }
+
+        .jumbotron.row-img::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(153, 7, 189, 0.5);
+        }
+
+        .about {
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        .about .row {
+            min-height: 100vh;
+        }
+
+        .about .col-md-6:nth-child {
+            background-color: #0c0fb6;
+            color: rgb(123, 51, 132);
+            min-height: 100vh;
+            padding: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .about-img {
+            background-image: url('https://i.pinimg.com/1200x/6d/a5/ba/6da5ba2ff1ceb060c07c8802fa3f8356.jpg');
+            min-height: 100vh;
+            background-position: right center;
+            align-items: right;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+
+        .service {
+            position: relative;
+            height: 400px;
+            background-color: blueviolet;
+        }
+
+        .teknologi {
+            margin-top: -100px;
+            background-color: blueviolet;
+        }
+
+        .teknologi .row .col-4 .card .card-body i {
+            width: 100%;
+            height: 350px;
+        }
+
+        .teknologi .row .col-4 .card .card-body i {
+            font-size: 8em;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+            <a class="navbar-brand" href="#">MY COMPANY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">Cilent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">Testi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">Contact</a>
+                </ul>
+            </div>
+    </div>
+    </nav>
+
+    <section id="jumbotron" class="jumbotron">
+        <div class="row-img d-flex align-items-center justify-content-center text-pink">
+            <div class="col-md-6" style="z-index: 1;">
+                <h1 class="display-6">Welcome to MY COMPANY</h1>
+                <p class="text-success">"Halo! Selamat datang di website Felicyna🪻🪻🪻, Ini adalah website pribadi saya
+                    yang berisi tentang saya"</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Lihat Lebih Lanjut</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="row d-flex">
+            <div class="col-md-6 text-right d-flex flex-column justify-content-center align-item-center">
+                <h2 class="container mt-4">Tentang Saya</h2>
+                <p class="container mt-4">Halo! Nama saya Felicyna🪻🪻🪻. Saya adalah seorang pelajar sekolah menengah kejuruan(SMK) yang
+                    memiliki ketertarikan pada teknologi, desain, dan pengembangan website.</p>
+                <p class="container mt-4">Website ini dibuat untuk memperkenalkan diri saya, pengalaman, kemampuan, serta berbagai hal yang
+                    sedang saya kerjakan.</p>
+            </div>
+
+            <div class="col-6 about-img"></div>
+
+
+        </div>
+    </section>
+
+    <section id="service" class="service pt-5">
+        <div class="container">
+            <div class="row text-white text-center">
+                <div class="col-12">
+                    <h2 class="fw-bold">Service</h2>
+                    <p>Web Development
+                        Membuat website yang modern, responsif, dan mudah digunakan sesuai kebutuhan.
+
+                        Web Design
+                        Merancang tampilan website yang menarik, rapi, dan nyaman dilihat di berbagai perangkat.
+
+                        UI/UX Design
+                        Membuat desain antarmuka yang sederhana, interaktif, dan memberikan pengalaman pengguna yang
+                        baik.
+
+                        Graphic Design
+                        Membuat berbagai desain visual seperti poster, banner, logo, dan kebutuhan digital lainnya.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="teknologi" class="teknologi">
+        <div class="container">
+            <div class="row text-center mb-5">
+
+                <div class="col-4">
+                    <div class="card d-flex justify-content-center align-items-center flex-column">
+                        <div class="card-body mt-6">
+                            <i class="bi bi-code"></i>
+                            <h5>Code</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body mt-6">
+                            <i class="bi bi-book"></i>
+                            <h5>Design</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body mt-6">
+                            <i class="bi bi-building"></i>
+                            <h5>Building</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row text-white">
+                <div class="col-md-8 ">
+                    <h2 class="fw-bold">Technology</h2>
+                    <p>
+                        Memanfaatkan teknologi terkini untuk menciptakan solusi digital yang inovatif, praktis, dan
+                        sesuai dengan kebutuhan pengguna.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="https://i.pinimg.com/736x/d3/25/57/d325574f5834aa92c52fcfc126f1e4bf.jpg" class="img-fluid"
+                        style="height: 200px ;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+</body>
+
+</html>
