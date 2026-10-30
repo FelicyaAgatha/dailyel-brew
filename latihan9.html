@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktik HTML dan CSS</title>
+
+    <style>
+        /* Background dan font */
+        body {
+            background-color: #fff0f5;
+            font-family: Arial, sans-serif;
+            color: black;
+            margin: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: pink;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        /* Links */
+        nav {
+            background-color: white;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: purple;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Isi halaman */
+        main {
+            width: 85%;
+            margin: 20px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid pink;
+        }
+
+        h2 {
+            color: purple;
+            font-size: 22px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid purple;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: pink;
+        }
+
+        /* Footer */
+        footer {
+            background-color: pink;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Belajar HTML dan CSS</h1>
+        <p>Tugas Praktik Pemrograman Web</p>
+    </header>
+
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#daftar">Daftar</a>
+        <a href="#tabel">Tabel ATK</a>
+    </nav>
+
+    <main>
+
+        <!-- Beranda -->
+        <section id="beranda">
+            <h2>Selamat Datang!</h2>
+
+            <p>
+                Website ini dibuat untuk mempelajari HTML dan CSS.
+                HTML digunakan untuk membuat struktur halaman,
+                sedangkan CSS digunakan untuk mengatur tampilan website.
+            </p>
+
+            <p>
+                <b>Nama:</b> Felicyna Aprilir Susanto Lie<br>
+                <b>Kelas:</b> XI RPL<br>
+                <b>Sekolah:</b> SMKS Bina Putra Mandiri
+            </p>
+        </section>
+
+        <!-- List -->
+        <section id="daftar">
+            <h2>Daftar Bertingkat</h2>
+
+            <ol type="a">
+                <li>Pink.</li>
+                <li>Biru.</li>
+                <li>Hijau meliputi
+                    <ol>
+                        <li>Mobil.</li>
+                        <li>Motor.</li>
+                        <li>Sepeda.</li>
+                    </ol>
+                </li>
+                <li>Ayam.</li>
+                <li>Sapi.</li>
+                <li>Kelinci.</li>
+            </ol>
+        </section>
+
+        <!-- Tabel -->
+        <section id="tabel">
+            <h2>Daftar Alat Tulis Kantor</h2>
+
+            <table>
+                <tr>
+                    <th>No</th>
+                    <th>Daftar ATK</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Penggaris</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pensil</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pulpen</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Buku</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Tugas Individu HTML dan CSS</p>
+    </footer>
+
+</body>
+</html>
